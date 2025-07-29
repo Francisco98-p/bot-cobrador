@@ -17,7 +17,7 @@ const ListaDeudoresVencidos = () => {
 
       // Llama a la nueva API de deudores vencidos en tu backend FastAPI
       // Asegúrate que la IP y el puerto sean los correctos para tu API de Python (FastAPI)
-      const response = await fetch('http://192.168.1.5:8000/deudores-vencidos'); 
+     const response = await fetch('https://bot-cobrador.onrender.com/deudores-vencidos');
 
       if (!response.ok) {
         const errorBody = await response.text();
