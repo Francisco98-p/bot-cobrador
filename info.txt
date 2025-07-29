@@ -1,0 +1,17 @@
+[2025-07-25 11:57:54.632479] Horarios de clientes disponibles:
+
+ADVERTENCIA: No se pudieron identificar los pares de columnas 'HORA' y 'CUENTA DE CLIENTE' con los patrones esperados.
+Columnas encontradas en el DataFrame: 0, 1, 3, 4, 6, 7, 8, 9, 10, 12, 13
+Por favor, verifica los encabezados en tu Google Sheet y la lógica del script.
+Datos brutos (primeras 10 filas):
+               0                   1              3                   4                 6                   7    8              9                  10              12                  13
+0   Turnos Lunes  COUNTA de CLIENTE   Turnos Martes  COUNTA de CLIENTE   Turnos Miercoles  COUNTA de CLIENTE   NaN  Turnos Jueves  COUNTA de CLIENTE   Turnos Viernes  COUNTA de CLIENTE 
+1            NaN                 195            NaN                 241               NaN                 211  NaN            NaN                 244             NaN                 181
+2          16 HS                  28          20 HS                  24             19 HS                  22  NaN          20 HS                  23           16 HS                  26
+3          18 HS                  23           9 HS                  23             17 HS                  22  NaN           9 HS                  22           18 HS                  25
+4          10 HS                  22          18 HS                  21             16 HS                  22  NaN          18 HS                  20           20 HS                  24
+5          20 HS                  20           8 HS                  20              9 HS                  20  NaN          19 HS                  18            8 HS                  22
+6          19 HS                  20          19 HS                  18             15 HS                  20               16 HS                  17           15 HS                  22
+7          17 HS                  20          21 HS                  16             20 HS                  19  NaN          10 HS                  17           17 HS                  21
+8          15 HS                  20          10 HS                  16             10 HS                  19  NaN           8 HS                  16           10 HS                  21
+9           9 HS                  19          15 HS                  15             18 HS                  17  NaN          21 HS                  16           19 HS                  19
